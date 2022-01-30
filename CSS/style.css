@@ -1,0 +1,152 @@
+/* Global */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: Montserrat;
+}
+
+/* Navigation Bar Section */
+
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid blue;
+}
+
+.left, .right {
+    outline: 1px solid greenyellow;
+    
+}
+
+.left {
+    margin-left: 36px;
+    font-size:36px;
+    text-decoration: none;
+}
+.left a {
+    text-decoration:none;
+    color:black;
+    font-weight: 600;
+}
+
+.right {    
+    margin: 36px;
+    font-size:24px;
+    width:500px;
+    text-align: end;
+}
+
+.right a{
+    color:black;
+    text-decoration: none;
+    margin-right: 56px; 
+}
+
+.right button{
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+/* Hero Section */
+
+.herosection{
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 10%;
+    margin-right:10%;
+    
+ 
+}
+.lefthero {
+    outline: 1px solid greenyellow;
+    width:50%;
+    text-align:start;
+
+}
+
+.lefthero h1 {
+    font-size: 50px;
+}
+
+.righthero {
+    outline: 1px solid greenyellow;
+    text-align: end;
+    width:50%; 
+    margin-left:15px;   
+}
+
+/* Selected Work Section */
+
+.selectedWork {
+    outline: 1px solid rgb(140, 0, 255);
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.selectedWork h2 {
+    text-align: center;
+}
+
+.bbbsBox {
+    background-color: rgb(238, 241, 241);
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.projectDesc {
+    outline: 1px solid red;
+    width: 40%;
+}
+
+.projectName1 {
+    font-size: 32px;
+    font-weight:700
+}
+
+.projectQuestion {
+    font-size: 28px;
+    text-align:start;
+}
+
+.featureGraphic {
+    outline: 1px solid red;
+    width:60%;
+    padding:10px;
+}
+
+.rectangle {
+    height: 90%;
+    width:90%;
+    background-color: black;
+    position: relative;
+    margin:auto;
+}
+/* Footer Section */
+
+.footersection {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding:20px;
+}
+
+.footersection a {
+    color:white;
+    padding: 10px;
+}
+
+.footersection hr{
+  width:10%;  
+}
